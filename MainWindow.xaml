@@ -1,0 +1,42 @@
+﻿<Window x:Class="NotepadPlusPlusDoi.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NotepadPlusPlusDoi"
+        mc:Ignorable="d"
+        Title="NotepadPlusPlus" Height="450" Width="800">
+
+   
+    <Grid>
+        <Menu Background="#FF0C0C0C" HorizontalAlignment="Left" Width="52">
+            <MenuItem Header="File" Foreground="#FFC8C3C3">
+                <MenuItem Header="New" Click="NewFile" Background="#FF5B5757" Foreground="White"/>
+                <MenuItem Header="Open" Click="Open" Background="#FF5B5757" Foreground="White"/>
+                <MenuItem Header="Save" Click="Save" Background="#FF5B5757" Foreground="White"/>
+                <MenuItem Header="Save As" Click="SaveAs" Background="#FF5B5757" Foreground="White"/>
+                <MenuItem Header="Close" Click="Close" Background="#FF5B5757" Foreground="White"/>
+            </MenuItem>
+
+            <MenuItem Header="Search" Foreground="#FFC8C3C3">
+                <MenuItem Header="Find" Background="#FF5B5757" Foreground="White"/>
+                <MenuItem Header="Replace" Background="#FF5B5757" Foreground="White"/>
+            </MenuItem>
+
+            <MenuItem Header="About" Foreground="#FFC8C3C3" Click="About">
+
+            </MenuItem>
+
+
+
+        </Menu>
+        <TabControl x:Name="TabControl1" Margin="57,2,155,2" Background="#FFD7D4D4" BorderBrush="Black">
+
+            
+        </TabControl>
+
+    </Grid>
+
+    
+
+</Window>

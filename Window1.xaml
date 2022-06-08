@@ -1,0 +1,17 @@
+﻿<Window x:Class="NotepadPlusPlusDoi.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NotepadPlusPlusDoi"
+        mc:Ignorable="d"
+        Title="Find" Height="137" Width="307" Background="Black">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="41,22,0,0" TextWrapping="Wrap" Text="Find:" VerticalAlignment="Top" Foreground="White" FontSize="18"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,28,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="223,27,0,0" VerticalAlignment="Top" Width="20" RenderTransformOrigin="0.505,0.488"/>
+        <RadioButton Content="This File" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"  />
+        <RadioButton Content="All Files" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,73,0,0" Foreground="White"/>
+
+    </Grid>
+</Window>
